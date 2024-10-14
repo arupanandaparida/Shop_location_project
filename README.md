@@ -67,12 +67,7 @@ Copy code
 ├── manage.py                # Django management script
 ├── db.sqlite3               # SQLite database file (or as configured)
 └── requirements.txt         # Dependencies list
-
-
-
-Contributing
-If you'd like to contribute, feel free to create a pull request or report issues.
-
 Contact
-For questions or suggestions, contact:
-Your Name: arupanandabaya456@gmail.com
+For questions or suggestions,
+ contact:7504938658
+Name: arupanandabaya456@gmail.com
