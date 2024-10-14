@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        nav {
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin: 0 10px;
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Shop Locator,here you can see your near Shop</h1>
+    <nav>
+        <a href="{% url 'shop_register' %}">Register</a>
+        <a href="{% url 'shop_list' %}">Shop List</a>
+        <a href="{% url 'shop_search' %}">Shop Distance</a>
+    </nav>
+
+    <p>Use the menu above to navigate to the different functionalities of the application.</p>
+</body>
+</html>
